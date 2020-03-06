@@ -1,0 +1,61 @@
+{
+  "name": "@saulx/eslint-config",
+  "description": "JavaScript Standard Style React/JSX support - ESLint Shareable Config",
+  "version": "0.0.1",
+  "bugs": {
+    "url": "https://github.com/atelier-saulx/eslint-config/issues"
+  },
+  "dependencies": {
+    "eslint-config-prettier": "^6.4.0",
+    "eslint-config-react-app": "^5.0.2",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-config-standard-react": "^9.2.0",
+    "eslint-plugin-flowtype": "^4.3.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.16.0",
+    "eslint-plugin-react-hooks": "2.1.2",
+    "eslint-plugin-standard": "^4.0.1"
+  },
+  "peerDependencies": {
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.5.1"
+  },
+  "homepage": "https://github.com/atelier-saulx/eslint-config",
+  "keywords": [
+    "JavaScript Standard Style",
+    "check",
+    "checker",
+    "code",
+    "code checker",
+    "code linter",
+    "code standards",
+    "code style",
+    "enforce",
+    "eslint",
+    "eslintconfig",
+    "hint",
+    "jscs",
+    "jshint",
+    "jsx",
+    "lint",
+    "policy",
+    "quality",
+    "react",
+    "simple",
+    "standard",
+    "standard style",
+    "style",
+    "style checker",
+    "style linter",
+    "verify"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/atelier-saulx/eslint-config.git"
+  }
+}
