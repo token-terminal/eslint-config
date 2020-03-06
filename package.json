@@ -6,6 +6,7 @@
     "url": "https://github.com/atelier-saulx/eslint-config/issues"
   },
   "dependencies": {
+    "babel-eslint": "^10.0.3",
     "eslint-config-prettier": "^6.4.0",
     "eslint-config-react-app": "^5.0.2",
     "eslint-config-standard": "^14.1.0",
@@ -20,7 +21,6 @@
     "eslint-plugin-standard": "^4.0.1"
   },
   "peerDependencies": {
-    "babel-eslint": "^10.0.3",
     "eslint": "^6.5.1"
   },
   "homepage": "https://github.com/atelier-saulx/eslint-config",
