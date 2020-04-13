@@ -1,27 +1,19 @@
 # eslint-config
-Our eslint config
+Our eslint config. Use it with our prettier config.
 
 ## usage:
-Add the dev dependencies to your `package.json`, and run `yarn`:
-```json
-...
-"devDependencies": {
-  "prettier": "^1.18.2",
-  "eslint": "^6.5.1",
-  "@saulx/eslint-config": "https://github.com/atelier-saulx/eslint-config"
-}
-...
+Add the following to your `package.json`:
 ```
-Add a `.prettierrc` file to your project root:
-```json
-{
-  "singleQuote": true,
-  "semi": false
-}
-```
-And add a `eslintrc.json` to your project root:
-```json
-{
+...
+"prettier": "@saulx/prettier-config",
+"eslintConfig": {
   "extends": "@saulx/eslint-config"
+},
+"devDependencies": {
+  "eslint": "^6.5.1",
+  "prettier": "^1.18.2",
+  "@saulx/eslint-config": "https://github.com/atelier-saulx/eslint-config",
+  "@saulx/prettier-config": "https://github.com/atelier-saulx/prettier-config"
 }
+...
 ```
