@@ -17,3 +17,4 @@ Add the following to your `package.json`:
 }
 ...
 ```
+And run `yarn` or `npm i`
