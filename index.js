@@ -1,11 +1,19 @@
 module.exports = {
-  parser: "babel-eslint",
-  extends: ["standard", "standard-jsx", "standard-react", "prettier"],
+  parser: "@typescript-eslint/parser",
+  plugins: ["@typescript-eslint"],
+  extends: [
+    "standard",
+    "standard-jsx",
+    "standard-react",
+    "prettier",
+    "plugin:@typescript-eslint/eslint-recommended",
+  ],
   rules: {
     "no-console": [1, { allow: ["info", "warn", "error", "time", "timeEnd"] }],
     "no-alert": 1,
     "no-debugger": 1,
     "react/prop-types": 0,
     "react/jsx-handler-names": 0,
+    "no-use-before-define": 0,
   },
 };
