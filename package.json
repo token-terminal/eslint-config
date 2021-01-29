@@ -1,7 +1,7 @@
 {
   "name": "@saulx/eslint-config",
   "description": "JavaScript Standard Style React/JSX support - ESLint Shareable Config",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "bugs": {
     "url": "https://github.com/atelier-saulx/eslint-config/issues"
   },
