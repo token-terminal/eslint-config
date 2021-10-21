@@ -14,6 +14,7 @@ module.exports = {
     "no-debugger": 1,
     "react/prop-types": 0,
     "react/jsx-handler-names": 0,
+    "react/jsx-curly-newline": 0,
     "no-use-before-define": 0,
   },
 };
