@@ -16,5 +16,6 @@ module.exports = {
     "react/jsx-handler-names": 0,
     "react/jsx-curly-newline": 0,
     "no-use-before-define": 0,
+    "@typescript-eslint/no-unused-vars": "error",
   },
 };
