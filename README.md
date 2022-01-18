@@ -12,7 +12,7 @@ Add the following to your `package.json`:
   "extends": "@token-terminal/eslint-config"
 },
 "devDependencies": {
-  "eslint": "^6.5.1",
+  "eslint": "^7.12.1",
   "prettier": "^1.18.2",
   "@token-terminal/eslint-config": "https://github.com/token-terminal/eslint-config",
   "@token-terminal/prettier-config": "https://github.com/token-terminal/prettier-config"
