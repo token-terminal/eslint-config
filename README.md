@@ -1,20 +1,26 @@
 # eslint-config
+
 Our eslint config. Use it with our prettier config.
 
-## usage:
+## Usage
+
 Add the following to your `package.json`:
-```
-...
-"prettier": "@saulx/prettier-config",
+
+```json
+"prettier": "@token-terminal/prettier-config",
 "eslintConfig": {
-  "extends": "@saulx/eslint-config"
+  "extends": "@token-terminal/eslint-config"
 },
 "devDependencies": {
   "eslint": "^6.5.1",
   "prettier": "^1.18.2",
-  "@saulx/eslint-config": "https://github.com/atelier-saulx/eslint-config",
-  "@saulx/prettier-config": "https://github.com/atelier-saulx/prettier-config"
+  "@token-terminal/eslint-config": "https://github.com/token-terminal/eslint-config",
+  "@token-terminal/prettier-config": "https://github.com/token-terminal/prettier-config"
 }
-...
 ```
-And run `yarn` or `npm i`
+
+Install the dependencies:
+
+```sh
+yarn install
+```
