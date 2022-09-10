@@ -15,7 +15,7 @@ module.exports = {
     "react/prop-types": 0,
     "react/jsx-handler-names": 0,
     "react/jsx-curly-newline": 0,
-    "no-use-before-define": ["error", { "functions": true, "classes": true, "variables": true }],
+    "no-use-before-define": ["error", "nofunc"],
     "@typescript-eslint/no-unused-vars": "error",
   },
 };
